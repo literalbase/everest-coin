@@ -16,8 +16,8 @@ function Adpage() {
             />
            
             <div className = "adpage-btn">
-            <Link to ="./Create" className = "adpage-btn"><button style={{background:"#D8B871",width:"180px"}}>Start to Create</button></Link>
-            <button style={{background:"#fff",width:"100px"}}>Learn how</button>
+            <Link to ="./Create" className = "adpage-btn"><button style={{background:"",width:"180px"}}>Start to Create</button></Link>
+            <button style={{width:"100px"}}>Learn how</button>
             </div>
         </div>
     )

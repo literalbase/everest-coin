@@ -9,7 +9,7 @@ import Ocean from "../../images/do-magical-digital-drawings-wi-232x223.png"
 
 
 function Liveauction() {
-    const [seconds , setSeconds] = useState(60);
+    const [seconds , setSeconds] = useState(120);
     useEffect(()=>{
         if (seconds>0) {
             setTimeout(()=>setSeconds(seconds - 1), 1000);
@@ -17,7 +17,7 @@ function Liveauction() {
         else{
             setSeconds("Live Now")
         }
-    })
+    },[seconds])
 
     const Live = [
         {
@@ -66,7 +66,7 @@ function Liveauction() {
             </div>
             <div className = "featured-card">
         {Live.map((d) =>(
-        <div className = "featuredcard-inner" style = {{marginLeft:"25px"}}>
+        <div className = "featuredcard-inner" style = {{marginLeft:"20px"}}>
             <img  src = {d.img} alt =""/>
             <p style = {{color:"teal",marginLeft:"10px",fontWeight:"700"}}>{seconds} Seconds  remaining</p>
             <div className= "card-rated" >{d.text} <span>50<i className="far fa-heart"></i></span></div>

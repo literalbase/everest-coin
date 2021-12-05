@@ -13,9 +13,9 @@ function Explore() {
           <button style={{width:"80px"}}>Art</button>
           <button style={{width:"80px"}}>Collection</button>
         </div> 
-        <div className = "featured-card-evr">
+        <div className = "featured-card">
           <FeaturedCard/>
-          <FeaturedCard/>
+         
         </div>
         </div>
     )

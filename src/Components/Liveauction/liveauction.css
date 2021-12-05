@@ -25,3 +25,14 @@ margin-top: 25px;
     background-color: transparent;
     outline: none;
 }
+.featuredcard-inner>img{
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width :1050px){
+    .featuredcard-inner>img {
+        margin-left: 20px;
+       
+        object-fit: cover;
+    }
+}

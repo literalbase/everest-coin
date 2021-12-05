@@ -1,6 +1,9 @@
 import React from 'react';
 import "./connectwallet.css";
 import MetaMask from "../../images/metamask.png"
+import Asset from "../../images/asset-53001x-8-113x123.png"
+import Coin from "../../images/bnb.png"
+import Ethereun from "../../images/ethereum.png"
 import TrustWallet from "../../images/trustwallet.png"
 import Wallet from "../../images/a5169900-c66c-11e9-8592-33c733-117x117.png";
 import Footer from "../../Components/Footer/Footer"
@@ -23,7 +26,13 @@ function ConnectWallet() {
     return (
         <div className = "connect-wallet">
              <div className ="connect-wallet-address">
-          <h2 className = "connect">Wallet Connect  </h2>
+          <h2 className = "connect">
+          Wallet Connect 
+           <img src = {Asset} alt = ""/>
+           <img src = {Coin} alt = ""/>
+           <img src = {Ethereun} alt = ""/>
+           </h2>
+         
             </div>
              
             <div className = "big-div">

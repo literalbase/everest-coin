@@ -41,6 +41,8 @@
     color: white;
     border-radius: 16px;
     cursor: pointer;
+   
+    
 }
 .inner-card:hover{
     transition: all 2ms;

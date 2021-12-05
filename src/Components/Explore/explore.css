@@ -1,5 +1,6 @@
 .evr-explore{
 margin-top: 50px;
+flex-direction: column;
 }
 .evr-explore_txt{
     display: flex;
@@ -23,17 +24,20 @@ margin-top: 50px;
     background-color: transparent;
     outline: none;
     color: #f0b942;
+    transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .evr-explore_txt>button:hover{
     background-color: #000;
 }
 .featured-card-evr{
-    margin-left: 50px;
+    margin-left: 0px;
    
 }
+
 @media screen and (max-width:1050px){
-    .featured-card-evr{
-        margin-left: 15px;
+    .featured-card{
+      margin-left: 14px;
+      
     }  
     .evr-explore_txt>button{
         font-size: 12px;

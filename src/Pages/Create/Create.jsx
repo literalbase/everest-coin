@@ -22,8 +22,8 @@ function Create() {
         <h3>Smith Ora</h3>
         <p>smithora.com</p>
         <div className = "social">
-        <Social />
         <button>follow</button>
+        <Social />
         
         </div>
     </div>

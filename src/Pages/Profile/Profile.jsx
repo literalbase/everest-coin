@@ -11,33 +11,8 @@ import Deadpool from "../../images/deadpool-ryan-reynolds-dig-295x267.png"
 
 function Profile() {
     const Profile = [
-        {
-              img: Mountain,
-              id:5,
-              text:"Mountain",
-              desc:"price",
-              bid:"5+"
-              ,
-              name:"John Doe"
-
-        },
-          {       img: Dawn,
-              id:4,
-                  text:"Mountain",
-                  desc:"price",
-                  bid:"1+"
-                  ,
-              name:"John Doe"
-          },
-          {   img:Monster,
-             
-              text:"Wolverine",
-              desc:"price",
-              id:3,
-              bid:"19+"
-              ,
-              name:"John Doe"
-          },
+    
+          
           {   img:Deadpool,     
               text:"Deadpool",
               desc:"price",
@@ -70,8 +45,8 @@ function Profile() {
         <p>smithora.com</p>
         <div className = "social">
         <Social />
-        <button>follow</button>
 
+        <button>follow</button>
         </div>
     </div>
     <div className = "inner">

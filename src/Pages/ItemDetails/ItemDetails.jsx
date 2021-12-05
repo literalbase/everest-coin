@@ -46,7 +46,7 @@ function ItemDetails() {
                  Name.map((d)=>(
                <div className = "img">
                  
-                <img  className = "row-details"src = {d.img} alt =""/>
+                <img  src = {d.img} alt =""/>
                 <h2 style = {{fontSize:"12px", color:"wheat"}}>{d.name}<span >{d.amount}</span> <p  style = {{fontSize:"10px", color:"#fff"}}> {d.time}</p></h2>
                 </div>
                  ))}
@@ -55,11 +55,11 @@ function ItemDetails() {
                  </Popup>
                 </div>
                
-                <span className = "pic-details">Highest Bid| 2ETH</span>
+                <label className = "pic-details">Highest Bid| 2ETH</label>
               
               </div>
             </div>
-            <div className = "card">
+            <div className = "featured-card" style = {{backgroundColor:"#0C0E1A"}}>
                <FeaturedCard/>
        </div>
        <div style = {{backgroundColor:"#0C0E1A"}}>

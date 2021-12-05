@@ -30,17 +30,13 @@
      color:#000; 
     
 }
-@keyframes everest-adpage {
-    0% {
-        -webkit-transform: translateY(0);
-                transform: translateY(0);
-      }
-      100% {
-        -webkit-transform: translateY(-100px);
-                transform: translateY(-100px);
-      }
-    }
-
+.adpage-btn>button{
+    background-color: rgb(189, 189, 94);
+    transition: 1s all;
+}
+.adpage-btn>button:hover{
+    background-color: teal;
+}
   
 @media screen and (max-width:1050px){
     .everest-adpage >h2{
@@ -67,7 +63,9 @@
     justify-content: center;
     align-items: center;
    padding-bottom: 35px;
+  
 }
+
 @media screen and (max-width:1050px){
     .adpage-btn  {
         margin-left: 30px; 
@@ -86,7 +84,7 @@
     border-width: 1px;
     font-weight: 600;
     color: #fff#D8B871;
-    background-color: transparent;
+   
     border: none;
     cursor: pointer;
    
