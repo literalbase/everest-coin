@@ -1,0 +1,73 @@
+
+.everest-topbar{
+    background-color: #1D2034;
+   
+  }
+  .everest-md_content{
+    background-image: url("../../images/n-2-1973x1758.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125)
+   
+   
+  }
+  .topseller-evr{
+    background-color: #1D2034;
+  }
+  
+  .explore-evr{
+    background-image: url("../../images/n-3-1973x1758.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125)
+  }
+  .liveauction-evr{
+    background-color: #1b1d29;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125)
+  }
+  .createnft-evr{
+    background-color: #0C0E1A;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125)
+  }
+  .everest-foot{
+    background-color: #0C0E1A;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+  }
+  
+  @media screen and (max-width :1050px) {
+    .everest-topbar{
+      display: flex;
+      flex-direction: column;
+    }
+    .everest-md_content{
+      display: flex;
+      flex-direction: column;
+    }
+    .topseller-evr{
+      display: flex;
+      flex-direction: column;
+    }
+    .explore-evr{
+      display: flex;
+      flex-direction: column;
+    }
+    .liveauction-evr{
+      display: flex;
+      flex-direction: column;
+    }
+    .createnft-evr{
+      display: flex;
+      flex-direction: column;
+    }
+    .everest-foot{
+      display: flex;
+      flex-direction: column;
+    }
+  }

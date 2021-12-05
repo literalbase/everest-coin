@@ -1,0 +1,39 @@
+.featured-card{
+    display: flex;
+    margin: 20px;
+}
+.featuredcard-inner{
+margin: 10px;
+background-color: rgb(52, 52, 86);
+border-radius: 15px;
+color: whitesmoke;
+}
+.featuredcard-inner>img{
+    width: 180px;
+    cursor: pointer;
+}
+@media screen and (max-width:1050px) {
+    .featuredcard-inner>img{
+     width: 260px;
+   
+    }
+}
+.card-rated{
+    display: flex;
+    margin: 5px;
+    justify-content: space-between;
+    color: rgb(168, 168, 61);
+    cursor: pointer;
+    font-weight: 700;
+}
+.card-rated>span{
+    color: rgb(168, 168, 61);
+}
+.card-price{
+    display: flex;
+    margin: 5px;
+    justify-content: space-between;
+    color: rgb(168, 168, 61);
+    cursor: pointer;
+    font-weight: 700;
+}

@@ -1,0 +1,39 @@
+.everest-featured{
+   margin-top: 25px; 
+}
+.everest-featured_faricon-see_all{
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.everest-featured_faricon-see_all>button{
+   
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 200px;
+    border-radius: 16px;
+    border-color: #f0b942;
+    border-width: 3px;
+    font-weight: 600;
+    color: #D8B871;
+    background-color: rgb(75, 64, 64);
+    outline: none;
+    font-family: "SourceSansPro-Regular";
+}
+.everest-featured_faricon-see_all>h2{
+    color: rgb(194, 194, 107);
+}
+@media screen and (max-width:1050px){
+    .everest-featured_faricon-see_all{
+        display: flex;
+    }
+    .featured-card{
+        display: flex;
+        flex-direction: column;
+    }
+
+}

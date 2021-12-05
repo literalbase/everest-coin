@@ -1,0 +1,119 @@
+.everest_navbar{
+display: flex;
+justify-content: center;
+
+}
+.everest-mobile-view{
+    background-color: inherit;
+    color: rgb(230, 203, 203);
+    font-size: 16px;
+    list-style: none;
+}
+.everest-nav-menu{
+    display: none;
+}
+@media screen and (max-width:1050px){
+    .everest-nav-menu{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        transition: 2ms all ;
+        text-decoration: none;
+    }
+    .everest-nav-menu>li{
+        list-style: none;
+    }
+}
+.everest_navbar-logo{
+    align-items: center;
+     justify-content: center;
+
+}
+.everest_navbar-logo>img{
+        width: 184px;
+        height: 19;
+        margin: 20px;
+        cursor: pointer;
+}
+
+.everest_navbar-item{
+align-items: center;
+justify-content: center;
+}
+
+.everest_navbar-item> ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+.everest_navbar-item> ul>li{
+    list-style: none;
+    text-decoration: none;
+    margin:5px;
+    font-size: 20px;
+    color: white;
+
+}
+.everest_navbar-item> ul>li:hover{
+    color: rgb(109, 101, 101);
+    cursor:pointer
+}
+
+.everest_navbar-item-token{
+align-items: center;
+justify-self: start;
+}
+
+.everest_navbar-item-token>button{
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 200px;
+    border-radius: 16px;
+    border-color: #D8B871;
+    border-width: 1px;
+    font-weight: 600;
+    color: #D8B871;
+    background-color: transparent;
+
+}
+.everest_navbar-item-token>button:hover{
+    background-color: #e9dec5;
+    transition: 3ms all;
+    cursor: pointer;
+}
+@media screen and (max-width:1050px) {
+    .everest_navbar-item{
+        display: none;
+       
+    }
+    .everest_navbar-item>li{
+        list-style: none;
+    }
+    .everest_navbar{
+        display: flex;
+    }
+    .everest_navbar-logo{
+       flex: left;
+      margin: 0px;
+    }
+    .everest_navbar-logo>img{
+        width: 100px;
+        height: 19;
+        margin: 5px;
+        cursor: pointer;
+    }
+    
+    .everest_navbar-item-token>button{
+    margin-top: 30px;
+    margin-right: 10px;
+    }
+   
+}
+.typed{
+    margin-left: 20px;
+    font-weight: 700;
+    color: crimson;
+}

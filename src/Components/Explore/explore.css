@@ -1,0 +1,41 @@
+.evr-explore{
+margin-top: 50px;
+}
+.evr-explore_txt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    color:rgb(194, 194, 107);
+}
+.evr-explore_txt>button{
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 200px;
+    border-radius: 16px;
+    border-color: #f0b942;
+    border-width: 3px;
+    font-weight: 600;
+    color: rgb(27, 26, 26);
+    background-color: transparent;
+    outline: none;
+    color: #f0b942;
+}
+.evr-explore_txt>button:hover{
+    background-color: #000;
+}
+.featured-card-evr{
+    margin-left: 50px;
+   
+}
+@media screen and (max-width:1050px){
+    .featured-card-evr{
+        margin-left: 15px;
+    }  
+    .evr-explore_txt>button{
+        font-size: 12px;
+    }
+}

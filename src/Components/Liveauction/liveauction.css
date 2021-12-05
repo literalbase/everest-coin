@@ -1,0 +1,27 @@
+.evr-liveauction{
+margin-top: 25px;
+}
+.everest-live{
+      
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.everest-live>h2{
+    color: rgb(194, 194, 107);
+}
+.everest-live>button{
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 200px;
+    border-radius: 16px;
+    border-color: #f0b942;
+    border-width: 3px;
+    font-weight: 600;
+    color: rgb(228, 218, 218);
+    background-color: transparent;
+    outline: none;
+}

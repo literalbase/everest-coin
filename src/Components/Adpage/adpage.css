@@ -1,0 +1,93 @@
+.everest-adpage{
+    width: 60%;
+    background-color: rgb(245, 245, 245) ;
+    opacity: 0.7;
+    height: 200px;
+    border-radius: 30px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left:250px;
+
+}
+@media screen and (max-width:1050px){
+    .everest-adpage{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        margin-top: 20px;
+        width: 80%;
+        height: 70%;
+      
+        
+    }
+}
+.everest-adpage>h2{
+    margin-left: 20px;
+     padding-top: 20px;
+     font-size: 28px;
+     font-weight: 800;
+     color:#000; 
+    
+}
+@keyframes everest-adpage {
+    0% {
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+      }
+      100% {
+        -webkit-transform: translateY(-100px);
+                transform: translateY(-100px);
+      }
+    }
+
+  
+@media screen and (max-width:1050px){
+    .everest-adpage >h2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        font-size: 20px;
+    }
+}
+.everest-adpage>p{
+    margin-left: 20px; 
+    font-weight: 600;
+}
+@media screen and (max-width:1050px){
+    .everest-adpage>p{
+        margin-left: 20px; 
+        font-weight: 600;
+        font-size: 18px;
+    }
+}
+
+.adpage-btn{
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+   padding-bottom: 35px;
+}
+@media screen and (max-width:1050px){
+    .adpage-btn  {
+        margin-left: 30px; 
+        font-weight: 600;
+        font-size: 18px;
+    }
+}
+.adpage-btn >button{
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 200px;
+    border-radius: 16px;
+    border-color: #D8B871;
+    border-width: 1px;
+    font-weight: 600;
+    color: #fff#D8B871;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+   
+}

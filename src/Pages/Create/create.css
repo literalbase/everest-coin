@@ -1,0 +1,259 @@
+
+.create-h2{
+    height : 200px ;
+    width: 100% ;
+    display: flex;
+    background-image: url("../../images/n-2-1973x1758.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    justify-content: center;
+    align-items: center;
+  color: #D8B871;
+}
+.bg-div-box{
+    width: 100%;
+    height: 440px;
+    background-color: #0C0E1A;
+    display: flex;
+     background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    justify-content: center;
+   
+}
+@media screen and (max-width :1050px){
+    .bg-div-box{
+       
+    }
+}
+.bg-inner{
+    width: 50%;
+    height: 392px;
+    background-color: #1D2034;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    border-top-right-radius: 14px;
+    border-top-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bg-inner>input{
+    margin-top: 10px;
+    border-radius: 8px;
+    padding: 10px;
+    border-width: 1px;
+    width: 250px;
+    text-align: center;
+    color: #20201f;
+    font-weight: 600;
+    outline: #D8B871;
+    cursor: pointer;
+}
+
+.item1{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 8px;
+    border-width: 2px;
+    width: 400px;
+    margin-top: 5px;
+}
+.item1>input{
+    padding: 8px;
+    outline: #D8B871;
+    border-radius: 8px;
+    border-width: 2px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    stroke:#FFFCFC;
+    stroke-width: 1px;
+}
+.item1>label{
+    color: rgb(116, 101, 101);
+
+}
+.txtarea{
+    display: flex;
+    margin: 5px;
+    stroke:#FFFCFC;
+    stroke-width: 1px;
+}
+.txtarea>label{
+    margin: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(116, 101, 101);
+    outline: #D8B871;
+}
+.txtarea>textarea{
+    border: 1px solid black ;
+    width: 200px;
+    height: 100px;
+    border-radius: 8px;
+    stroke:#FFFCFC;
+    stroke-width: 1px;
+}
+.item-description{
+    display: flex;
+    width: 400px;
+    margin: 10px;
+}
+.item-description>label{
+    margin: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    width: 185px; 
+    height: 45px;
+    height: 35px;
+    color: rgb(117, 110, 110);
+}
+.item-description>input{
+    padding: 8px;
+    outline: #D8B871;
+    border-radius: 8px;
+    border-width: 2px;
+    stroke:#FFFCFC;
+    width: 185px; 
+    
+}
+.item-description2>input{
+    width: 135px;
+    height: 35px;
+    
+}
+.item-description2{
+color: grey;
+}
+.profile-card{
+    width: 200px;
+    height: 200px;
+    border-radius: 16px;
+    background-color: #1D2034;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.profile-card>img{
+    width: 70px;
+    height: 70px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+}
+.profile-card>h3{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 60px;
+    color: whitesmoke;
+
+}
+.profile-card>p{
+    font-size: 15px;
+    margin-top: 1px;
+    margin-left: 60px;
+    color: rgb(184, 184, 123);
+}
+.social{
+    display: flex;
+    font-size: 19px;
+    color: rgb(52, 52, 82);
+    display: flex;
+    margin-left: 60px;
+    margin-top: 3px;
+    
+}
+.social>button{
+    
+    width: 70px;
+    border-radius: 32px;
+    margin-left: 4px;
+    font-size: 13px;
+    font-weight: 800;
+    background-color: rgb(72, 46, 97);
+    color: whitesmoke;
+}
+.bg-inner>button{
+    width: 300px;
+    height: 30px;
+    background-color: #D8B871;
+    border-radius: 4px;
+    color: #000;
+    font-weight: 700;
+}
+@media screen and (max-width :1050px){
+    .bg-inner{
+        
+        justify-content: center;
+        align-items: center;
+    }
+    .item1{
+        width: 150px;
+        margin: 0px;
+     
+    }
+    .item1>label{
+        font-size: 10px;
+        margin-left: 12px;
+    }
+    .item1>input{
+        padding: 0px;
+        
+    }
+    .txtarea{
+        flex-direction: column;
+        margin:2px ;
+    }
+    .txtarea>label{
+        font-size: 10px;
+      
+    }
+    .txtarea>textarea{
+        border: 1px solid black ;
+        width: 100px;
+        height: 40px;
+       
+    }
+    .item-description{
+        flex-direction: column;
+        width: 160px;
+        margin: 1px;
+    }
+    .item-description>label{
+        margin: 2px;
+        font-size: 15px;
+        font-weight: 700;
+        color: rgb(117, 110, 110);
+        border-radius: 4px;
+    
+    }
+    .item-description2{
+        flex-direction: column;
+        width: 160px;
+        margin: 1px;
+    }
+    .checkbox{
+        flex-direction: column;
+    }
+    .bg-inner>button{
+        width: 150px;
+        height: 40px;
+        border-radius: 16px;
+    }
+    .bg-div-box{
+        display: flex;
+        flex-direction: column;
+        height: 660px;
+        align-items: center;
+      
+    }
+}

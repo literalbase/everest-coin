@@ -1,0 +1,140 @@
+.footer-row {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding-bottom: 10px;
+}
+@media screen and (max-width:1050px){
+    .footer-row{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.footer-img{
+    margin-top: 20px;
+    margin-right: 200px;
+}
+.footer-img>img{
+    display: flex;
+    width: 300px;
+    margin-left: 10px;
+}
+.footer-col1-01{
+    margin-right: 220px; 
+    margin-top: 20px;
+}
+@media screen and (max-width:1050px){
+    .footer-col1-01{
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+        color: #f0b942;
+    }
+}
+.footer-col1-01 > strong{
+   font-weight: 700; 
+   font-size: 20px;
+
+}
+
+.footer-col2{
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    color: rgb(247, 239, 239);
+}
+@media screen and (max-width:1050px){
+    .footer-col2{
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+        color: #d3c8b0;
+    }
+}
+.footer-col2>p{
+    cursor: pointer;
+}
+
+.footer-col2:hover{
+    color: rgb(56, 54, 54);
+
+}
+.footer-col-lg-3{
+    margin-left: -100px; 
+    margin-top: 20px;
+}
+.footer-col3>strong{
+    font-weight: 700; 
+    font-size: 20px;
+}
+@media screen and (max-width:1050px){
+    .footer-col3>strong{
+        margin-left: 200px;
+        color: #f0b942;
+    }
+}
+.footer-evr-row>li{
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    list-style: none;
+    color: rgb(247, 239, 239);
+}
+@media screen and (max-width:1050px){
+    .footer-evr-row>li{
+        display: flex;
+        flex-direction: column;
+        margin-left: 200px;
+        color: #d3c8b0;
+    }
+}
+.footer-copyright{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:1050px){
+    .footer-copyright{
+        
+        margin-left: 80px;
+        
+        
+    }
+}
+.footer-copyright>p{
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+}
+@media screen and (max-width:1050px){
+    .footer-copyright>p{
+        
+      font-weight: 200;
+        
+        
+    }
+}
+.soc-item{
+    background-color: white;
+    margin: 5px;
+    width: 50px;
+   text-align: center;
+   font-size: 25px;
+   border-radius: 100%;
+   
+}
+.social-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:100px ;
+}
+@media screen and (max-width:1050px){
+    .social-row{
+        
+        margin-left: 80px;
+        
+    }
+}
+.soc-item:hover{
+    color: blue;
+}

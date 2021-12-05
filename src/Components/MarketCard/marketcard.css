@@ -1,0 +1,77 @@
+.market-card{
+   
+  display: flex;
+    margin: 50px;
+}
+@media screen and (max-width :1050px){
+    .market-card{
+        display: flex;
+        flex-direction: column;
+      }
+}
+.marketcard-inner{
+        margin: 10px;
+        background-color: rgb(52, 52, 86);
+        border-radius: 15px;
+        color: whitesmoke;
+       
+}
+
+.bid{
+    display: flex;
+    flex-direction: row;
+}
+.bid>p{
+    font-size: 12px;
+    margin-top: 5px;
+    color: rgb(168, 168, 61);
+    font-weight: 600;
+}
+.marketcard-inner>img{
+    width: 180px;
+    cursor: pointer;
+}
+@media screen and (max-width:1050px) {
+    .marketcard-inner>img{
+     width: 230px;
+     object-fit: cover;
+     border-radius: 4px;
+     margin-left: 5px;
+   
+    }
+}
+.own
+{
+    display: flex;
+}
+.own>h2{
+    font-size: 17px;
+    margin-left: 10px;
+    color: rgb(168, 168, 61);
+}
+.own>span{
+    margin-left: 20px;
+    color: rgb(168, 168, 61);
+}
+.button{
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100px;
+    border-radius: 16px;
+   
+    border-width: 3px;
+    font-weight: 600;
+    color: rgb(27, 26, 26);
+    background-color: transparent;
+    outline: none;
+    color: yellowgreen;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+@media screen and (max-width:1050px) {
+    .button{
+    justify-content: center;
+    margin-left: 65px;
+    }
+}

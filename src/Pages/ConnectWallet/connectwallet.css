@@ -1,0 +1,94 @@
+.connect-wallet-address{
+        width: 100%;
+        height: 200px;
+        background-image: url("../../images/n-2-1973x1758.png");
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        background-clip: border-box;
+        color: #adab2e;
+}
+
+.connect{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.bg-div{
+    background-color: rgb(26, 26, 80);
+    width: 10%;
+    height:600px;
+}
+
+.bg-div>h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+.meta{
+    width: 250px;
+    height: 200px;
+    background-color: rgb(161, 100, 218);
+    border-radius: 16px;
+    margin:10px;
+   
+    
+    
+}
+
+
+
+.meta>img{
+    height: 100px;
+    width: 100px;
+    opacity: 0.9;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+.meta>h2{
+    color: #ffff;
+    font-size: 17px;
+    margin-left: 75px;
+}
+.meta-div{
+    display: flex;
+    margin-left: 70px;
+    justify-content: center;
+    align-items: center;
+    background-color: #0C0E1A;
+    cursor: pointer;
+}
+.meta:hover{
+    background-color: wheat;
+}
+@media screen and (max-width :1050px){
+    .meta-div{
+     flex-direction: column;
+     margin-left: 20px;
+    }
+    
+}
+.big-div{
+    background-color: #0C0E1A;
+    position: relative;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+}
+.big-div>h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+
+}

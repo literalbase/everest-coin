@@ -1,0 +1,64 @@
+.createnft-evrest{
+    
+    margin-top: 20px;
+}
+
+@media screen and (max-width:1050px){
+    .createnft-evrest{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.createnft-evrest_card{
+    display: flex;
+    margin-left: 50px;
+}
+
+.createnft-evrest_card>h2{
+    color: rgb(194, 194, 107);
+}
+
+.coin-flex-card{
+    display: flex;
+    margin-left: 50px;
+  
+}
+@media screen and (max-width:1050px){
+    .coin-flex-card{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+}
+
+
+.inner-card{
+    margin: 10px;
+    width: 300px;
+    background-color: #1D2034;
+    justify-content: center;
+    color: white;
+    border-radius: 16px;
+    cursor: pointer;
+}
+.inner-card:hover{
+    transition: all 2ms;
+    background-color: rgb(56, 55, 52);
+}
+
+.inner-card>img{
+    margin: 15px;
+}
+.inner-card>h2{
+    font-size: 15px;
+    margin: 10px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+.inner-card>p{
+    margin: 10px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 500;
+}

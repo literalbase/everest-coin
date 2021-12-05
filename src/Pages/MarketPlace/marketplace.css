@@ -1,0 +1,52 @@
+.marketplace{
+    display: flex;
+    background-color: rgb(30, 3, 34);
+}
+@media screen and (max-width :1050px){
+    .marketplace{
+        display: flex;
+        flex-direction: column;
+      }
+}
+.evr-marketPlace_template{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    height: 200px;
+    background-image: url("../../images/n-2-1973x1758.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125)
+}
+.evr-marketPlace_template>h2{
+    margin-top: 30px;
+    color: #D8B871;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+.marketplace-footer{
+    background-color: #0C0E1A;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+}
+@media screen and (max-width :1050px){
+    .marketplace-footer{
+        display: flex;
+        flex-direction: column;
+       margin-left: 10px;
+        color: #f0b942;
+      }
+}
+.auction{
+    display: flex;
+
+   flex: left;
+   background-color: red;
+}
+.all{
+    justify-content: center;
+    align-items: center;
+}
