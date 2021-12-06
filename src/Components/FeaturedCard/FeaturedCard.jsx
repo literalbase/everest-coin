@@ -45,12 +45,23 @@ function FeaturedCard() {
     return (
         
         <div className = "featured-card">
-        {Group.map((d,id) =>(
+        {Group.map((d) =>(
         <div className = "featuredcard-inner">
-            <img key = {id} src = {d.img} alt =""/>
-            <div className= "card-rated" key = {id}>{d.text} <span>50<i className="far fa-heart"></i></span></div>
-            <div className = "card-price" key = {id}> {d.desc} <span>1.5ETH</span></div>
-            </div>
+            <img src = {d.img} alt =""/>
+            <div className = "card-inner">
+            <div className= "card-rated">
+            {d.text} 
+            <span>50<i className="far fa-heart">
+
+            </i></span></div>
+            <div className = "card-price">
+            <div className="sm-card">
+             {d.desc} 
+             <span>1.5ETH</span>
+             </div>
+             </div>
+           </div>
+              </div>
         ))}
         
         </div>

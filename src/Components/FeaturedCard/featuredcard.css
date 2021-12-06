@@ -3,33 +3,111 @@
     margin: 20px;
 }
 .featuredcard-inner{
-margin: 10px;
-background-color: rgb(52, 52, 86);
-border-radius: 15px;
-color: whitesmoke;
+        margin: 10px;
+        background-color: rgb(52, 52, 86);
+        border-radius: 15px;
+        color: whitesmoke; 
+        
+}
+
+
+@media screen and (max-width:700px) {
+    .featuredcard-inner{
+        background-color: rgb(52, 52, 86);
+        justify-content: center;
+        align-items: center;
+        margin: 2px;
+        border-radius: 8px;
+      
+    }
 }
 .featuredcard-inner>img{
     width: 180px;
     cursor: pointer;
     display: flex;
-}
-@media screen and (max-width:1050px) {
-    .featuredcard-inner>img{
-    min-width: 220px;
-    margin: auto;
-    object-fit: contain;
-   
+    animation: square 5s;
     
+}
+.featuredcard-inner>img:hover{
+    width: 200px;
+}
+
+@keyframes square {
+    0% {
+        transform: translateY(0)  scale(1);
+        transform-origin: 10% 0%;
+    }
+    50% {
+        
+                transform: translateY(-50%)  scale(2);
+        
+                transform-origin: 50% 50%;
+      }
+      100% {
+       
+                transform: translateY(-100%)  scale(1);
+        
+                transform-origin:  80%;
+      }
+  }
+
+  
+
+@media screen and (max-width:700px) {
+    .featuredcard-inner>img{
+        min-width: 250px;
+        margin: auto;
+        object-fit: contain;
+        justify-content: center;
+        align-items: center;
+        padding: 10px ;
+        border-radius:4px; 
+        
     }
 }
+
 .card-rated{
     display: flex;
-    margin: 5px;
+   
     justify-content: space-between;
     color: rgb(168, 168, 61);
     cursor: pointer;
     font-weight: 700;
 }
+@media screen and (max-width:700px) {
+    .card-rated>span{
+      margin-left: 0px ;
+    }
+    
+    .card-rated{
+        margin-left: 0px;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .card-price{
+      
+        flex-direction: row;
+        margin: 10px;
+        text-transform: uppercase;
+       
+        
+    }
+    
+    .sm-card{
+     text-align: center;
+      margin-left: 38px;
+      justify-content: space-between;
+
+    }
+    .card-inner{
+        display: flex;
+        flex-direction: column;
+    }
+   .sm-card>span{
+ margin: 45px;
+   }
+}
+
 .card-rated>span{
     color: rgb(168, 168, 61);
 }
@@ -41,3 +119,4 @@ color: whitesmoke;
     cursor: pointer;
     font-weight: 700;
 }
+

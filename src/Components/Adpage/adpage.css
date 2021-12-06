@@ -10,7 +10,7 @@
     margin-left:250px;
 
 }
-@media screen and (max-width:1050px){
+@media screen and (max-width:700px){
     .everest-adpage{
         display: flex;
         flex-direction: column;
@@ -22,6 +22,14 @@
         
     }
 }
+@media screen and (min-width:1024px){
+    .everest-adpage{
+        justify-content: center;
+        align-items: center;
+        margin: 5px auto;
+    }
+}
+
 .everest-adpage>h2{
     margin-left: 20px;
      padding-top: 20px;
@@ -38,14 +46,17 @@
     background-color: teal;
 }
   
-@media screen and (max-width:1050px){
+@media screen and (max-width:768px){
     .everest-adpage >h2{
         display: flex;
         flex-direction: column;
         margin-top: 0px;
         font-size: 20px;
+        justify-content: center;
+        align-items: center;
     }
 }
+
 .everest-adpage>p{
     margin-left: 20px; 
     font-weight: 600;
@@ -59,22 +70,26 @@
 }
 
 .adpage-btn{
-    margin: 20px;
-    justify-content: center;
-    align-items: center;
-   padding-bottom: 35px;
+        margin: 20px;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 35px;
   
 }
 
-@media screen and (max-width:1050px){
+@media screen and (max-width:768px){
     .adpage-btn  {
-        margin-left: 30px; 
+        
         font-weight: 600;
         font-size: 18px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
     }
 }
 .adpage-btn >button{
-    margin-top: 20px;
+    margin-top: 5px;
     justify-content: center;
     align-items: center;
     height: 30px;
@@ -88,4 +103,12 @@
     border: none;
     cursor: pointer;
    
+}
+
+@media screen and (max-width:768px){
+    .adpage-btn>button  {
+       
+        justify-content: center;
+        align-items: center;
+    }
 }
